@@ -67,3 +67,29 @@ body {
     color: black;
     background: white;
 }
+
+.tab-content {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.affix {
+    top: 100px;
+}
+
+.carousel {
+    background: #1A237E;
+}
+
+.carousel-inner > .item {
+    height: 300px;
+}
+
+.item > img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-height: 300px;
+}
